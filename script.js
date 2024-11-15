@@ -10,12 +10,12 @@ function play(){
       (player1Choice === "scissors" && player2Choice === "paper") ||
       (player1Choice === "paper" && player2Choice === "rock")){
         alert("Player 1 Wins");
-        document.getElementById("display").innerHTML += " PLAYER 1";
+        document.getElementById("display").innerHTML = " PLAYER 1";
       }else if ((player2Choice === "rock" && player1Choice === "scissors") || 
       (player2Choice === "scissors" && player1Choice === "paper") ||
       (player2Choice === "paper" && player1Choice === "rock")){
         alert("Player 2 wins")
-        document.getElementById("display").innerHTML += " PLAYER 2";
+        document.getElementById("display").innerHTML = " PLAYER 2";
       }
       else if(player1Choice === player2Choice){
         alert("it's a Tie");
